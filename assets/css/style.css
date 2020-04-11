@@ -3,34 +3,39 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Cousine', monospace;
+    font-size: 32px;
 }
 body {
     display: block;
-    position: relative;
-}
-header {
-    border: 1px solid green;
-    background-color: rgba(0, 255, 0, 0.3);
-    height: 12vh;
-    width: 100vw;
 }
 aside {
-    border: 1px solid purple;
+    position: absolute;
+    border: none;
     background-color: rgba(247, 252, 0, 0.3);
     position: absolute;
     width: 25vw;
-    height: 76vh;
+    height: 100vh;
+}
+article {
+    padding: 30px;
+    margin:0 0 10px 0;
+
 }
 main {
-    border: 1px solid red;
-    background-color: rgba(255, 0, 0, 0.3);
+    border: none;
+    background-color: #f4b93d;
     width: 75vw;
     height: 76vh;
-    margin-left: 25%;
+    margin-left: 25vw;
 }
-footer {
-    border: 1px solid blue;
+#rodape {
+    border: none;
     background-color: rgba(0, 0, 255, 0.3);
     height: 12vh;
     width: 100vw;
+}
+footer {
+    display: block;
+    
 }
